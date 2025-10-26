@@ -1,0 +1,108 @@
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #033F87;
+    padding: 20px;
+    }
+
+    .container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    }
+
+    h3 {
+    color: #fff;
+    }
+
+    #puc {
+    display: block;
+    margin: 0 auto;
+    }
+
+    input {
+    width: 99%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+
+    button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+
+    .quadro {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    min-height: 50px;
+    font-size: 18px;
+    }
+
+    .aluno {
+    margin-bottom: 8px;
+    padding: 5px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+
+    .aluno:hover {
+    background-color: #dcdcdc;
+    }
+
+    .aluno.selecionado {
+    background-color: #ffcccc;
+    border: 2px solid red;
+    }
+
+
+    .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(255, 0, 21, 0.5);
+    justify-content: center;
+    align-items: center;
+    }
+
+    .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    }
+
+    .botoes{
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .botoes button{
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+    }
+
+    #adicionar {
+        margin-top: 0px;
+    }
+
+    #excluir {
+        margin-top: 0px;
+    }
+
+    #editar {
+        margin-top: 0px;
+    }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div id="telaPrincipal">
+  <img src="1212.jpg" id="puc" width="300"> 
+  <div class="botoes">
+    <button id="adicionar">adicionar</button>
+    <button id="excluir">excluir</button>
+    <button id="editar">editar</button>
+      <div id="modal" class="modal">
+      <div class="modal-content">
+        <p>Tem certeza que deseja remover os itens selecionados?</p>
+        <button id="confirmar">Sim</button>
+        <button id="cancelar">Não</button>
+      </div>
+    </div>
+  </div>
+  <div id="quadro" class="quadro"></div>
+  <div class="botoes">
+    <button id="ordenar">mostrar alunos ordenados</button>
+  </div>
+  <div class="botoes">
+    <button id="detalhes">detalhes</button>
+  </div>
+  <div class="botoes" style="display:none">
+    <button id="reverter">reverter</button>
+  </div>
+</div>
+  <script>
+  </script>
+  <script src="/js/script.js"></script>
+<div id="telaSecundaria" style="display: none;">]
+  <img src="1212.jpg" id="puc" width="300"> 
+  <h3>Preencha os dados:</h3>
+  <input type="text" id="nome" placeholder="Nome">
+  <input type="number" id="idade" placeholder="Idade">
+  <input type="text" id="curso" placeholder="Curso">
+  <input type="number" id="nota" placeholder="Nota Final">
+  <div class="botoes">
+  <button id="botadd">adicionar</button>
+  <button id="voltar">voltar</button>
+  </div>
+</div>
+<div id="telaTer" style="display: none;">]
+  <img src="1212.jpg" id="puc" width="300">
+  <h3>Detalhes Gerais:</h3>
+  <div id="quadroDetalhes" class="quadro"></div>
+  <div class="botoes">
+    <button id="voltar2">voltar</button>
+  </div>
+</div>
+</body>
+</html>
